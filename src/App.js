@@ -7,6 +7,7 @@ import Projects from "./components/Projects.js"
 import Resume from "./components/Resume.js"
 import Contact from "./components/Contact.js"
 import Footer from "./components/Footer.js"
+import CodingPlatforms from "./components/CodingPlatforms.js"
 function App() {
   return (
     <div className="App">
@@ -14,6 +15,7 @@ function App() {
      <Intro/>
      <About/>
      <Projects/>
+     <CodingPlatforms/>
      <Resume/>
      <Contact/>
      <Footer/>

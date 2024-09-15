@@ -16,11 +16,11 @@ export default function Projects() {
                 description: 'CashFlow Minimization using HTML and CSS and DSA Integration',
                 link: 'https://github.com/Visshwa96/CashFlowMin/tree/main/CBFriendsCost-master/CBFriendsCost-master'
             },
-            {
-                image: websiteImg3,
-                description: 'Basic Blog Website . Built with Next JS and MongoDB',
-                link: 'https://github.com/jvlcode/blog'
-            }
+            // {
+            //     image: websiteImg3,
+            //     description: 'Basic Blog Website . Built with Next JS and MongoDB',
+            //     link: 'https://github.com/jvlcode/blog'
+            // }
         ]
     }
 
@@ -32,10 +32,10 @@ export default function Projects() {
             </div>
         </div>
         <div className="w-full">
-            <div className='flex flex-col md:flex-row px-10 gap-5'>
+            <div className='flex flex-col md:flex-row px-10 gap-60'>
                 {config.projects.map((project) => (
                      <div className='relative'>
-                        <img className='h-[200px] w-[500px]' src={project.image}/>
+                        <img className='h-[300px] w-[500px]' src={project.image} alt = ""/>
                         <div className='project-desc'>
                             <p className='text-center px-5 py-5'>{project.description}</p>
                             <div className='flex justify-center'>
