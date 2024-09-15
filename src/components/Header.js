@@ -4,7 +4,7 @@ export default function Header(){
     const [toggleview ,setToggleView ] = useState(false);
     return (
         
-        <header className="flex justify-between py-2 bg-[#2E3A59] sticky">
+        <header className="flex justify-between py-2 bg-[#2E3A59] ">
             <a href = "#" className = "text-white font-bold text-[20px] "> Visshwa PM</a>
             <nav className = "hidden md:block"> {/* hidden - mobile view this means "mobile view la theriyathu md:block desktop view la theriyum*/ }
             <ul className = "flex text-white">
